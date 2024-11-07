@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing; border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    width: 150px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 7vw;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+}
+.header ul li:hover{
+color: green;
+}
+.nav ul li{
+padding: 0 15px;
+font-size: 14px;
+font-weight: bold;
+}
+.hero{
+   background-color: white; 
+   padding: 0 7vw;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.home div:nth-child(2){
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.home div:nth-child(1){
+    padding: 10px;
+    flex: 1;
+    font-size: 35px;
+}
+.home h1{
+    color: green;
+    font-size: 40px;
+    
+}
+.home p{
+    font-size: 35px;
+    padding: 15px 0;
+}
+.home-img{
+width: 600px;
+}
+.btn{
+    cursor: pointer;
+    margin-top: 5px;
+    width: 120px;
+    font-weight: bold;
+    background-color: green;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px;
+    color: white;
+    transition: all 0.2s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.about{
+    background-color: white; 
+    padding: 7vw 0;
+    flex-wrap: wrap-reverse;
+ }
+ .about-us{
+     display: flex;
+     align-items: center;
+    }
+    .about-us div:nth-child(1){
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 50px;
+        margin-left: 10px;
+    }
+    .about-us div:nth-child(2){
+        padding: 15px;
+        flex: 1;
+        font-size: 20px;
+}
+    .about-img{
+        width: 400px;
+    }
+    .about h3{
+        color: green;
+        font-size: 15px;
+    }
+        .about h2{
+            font-size: 25px;
+        }
+.about p{
+    font-size: 15px;
+}
+.abt-btn{
+    cursor: pointer;
+    margin-top: 5px;
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid;
+    transition: all 0.2s;
+}
+.abt-btn:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.services{
+    background-color: white; 
+    padding: 0 2vw;
+}
+.service-text{
+    text-align: center;
+    padding: 2rem 0;
+    background-color: white;
+}
+.service-text h4{
+    color: green;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.services-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.services-cart{
+width: 300px;
+text-align: center;
+border-radius: 8px;
+padding: 1rem;
+}
+.services-cart img{
+    width: 80px;
+    height: 70px;
+    margin-bottom: 1rem;
+}
+
+.menu{
+    text-align: center;
+    padding: 2rem 0;
+    background-color: white;
+    justify-content: center;
+}
+
+.menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 5rem;
+}
+
+.menu-list{
+width: 250px;
+background-color: white;
+padding: 1rem;
+border-radius: 7px;
+text-align: center;
+position: relative;
+box-shadow: 0px 4px 8px; 
+}
+.menu-list img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.menu-text h3{
+    color: green;
+}
+.menu-text h2{
+    margin-bottom: 1rem;
+}
+.contact{
+    padding : 7vw;
+    text-align: left;
+    margin-left: 50px;
+}
+.cont-add h4{
+    color: green;
+margin-bottom: 10px;
+}
+.cont-add p{
+   font-size: 15px;
+   margin-top: 15px;
+}
+.contact-list{
+    display: flex;
+    flex: 1;
+    padding-left: 10px;
+    gap: 10rem;
+}
+.contact-btn{
+    padding:5px;
+    width: 120px;
+    background-color: green;
+    color: white;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: 1px solid;
+    transition: all 0.2s;
+}
+.contact-btn:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid white;
+    padding: 6vw 0;
+}
+.footer ul li a{
+    padding: 0 15px;
+    font-size: 15px;
+    display: flex;
+}
+.footer-items{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    list-style: none;
+}
+
+.footer-items h3{
+    color: black;
+    margin-top: 12px;
+    text-align: left;
+}
+.footer-items .tasty{
+    color: green;
+}
+.footer-items ul li{
+    text-decoration: none;
+    font-weight: 15px;
+}
+
+@media only screen and (max-width: 760px){
+    .header .nav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 550px){
+    .home div:nth-child(1){
+        font-size: 18px;
+    }
+    .home p{
+        padding-top: 5px;
+        margin: 10px 0;
+        font-size: 11px;
+    }
+    .btn{
+        margin-top: 10px;
+        width: 120px;
+        line-height: 30px;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .home div:nth-child(2) img{
+        width: 70vw;
+    }
+}
